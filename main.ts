@@ -1,4 +1,3 @@
 game.onUpdate(function () {
-    let mySprite: Sprite = null
-    controller.moveSprite(mySprite)
+    music.play(music.melodyPlayable(music.baDing), music.PlaybackMode.UntilDone)
 })
